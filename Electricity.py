@@ -6,7 +6,7 @@ import plotly.express as px
 st.title('Electricity-Lebanon-2023')
 
 # Load the CSV directly from the file path
-csv_file_path = 'C:/Users/User/Desktop/Data Vis/Plotly Hw-Saja/Electricity.csv'  
+csv_file_path = 'https://linked.aub.edu.lb/pkgcube/data/cd81485f7af873f478a57ea964992ea9_20240908_215651.csv'  
 df = pd.read_csv(csv_file_path)
 
 # Display the DataFrame
